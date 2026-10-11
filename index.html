@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bootstrap</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg px-5">
+            <a class="navbar-brand d-flex align-items-center ms-lg-5" href="#">
+                <i class="bi bi-bootstrap-fill me-2 text-primary"></i>
+                <span class="text-primary fw-bold">Learning Bootstrap</span>
+            </a>
+            <button
+                class="navbar-toggler border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarText"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-lg-5 justify-content-lg-end" id="navbarText">
+                <ul class="navbar-nav align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary rounded-pill px-4 ms-lg-2">Sign up</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div
+            class="bg-primary text-white p-5 d-flex text-center text-lg-start flex-column flex-lg-row-reverse row-lg align-items-center"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="90"
+                height="135"
+                fill="#FFFFFF70"
+                class="bi bi-laptop col-lg"
+                viewBox="0 0 16 16"
+            >
+                <path
+                    d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"
+                />
+            </svg>
+            <div class="col-lg px-4 mt-4 px-lg-5">
+                <h1 class="fw-bold">Responsive Design Made Easy</h1>
+                <p class="text-white text-opacity-75">
+                    Stop writing media queries from scratch. Use Bootstrap's grid system to create layouts that adapt
+                    perfectly to phones, tablets and desktops.
+                </p>
+                <div class="d-flex flex-column flex-lg-row mb-lg-3">
+                    <button type="button" class="btn btn-light text-primary rounded-pill fw-bold px-lg-4">
+                        Get Started
+                    </button>
+                    <button type="button" class="btn btn-outline-light rounded-pill px-lg-4 mt-2 mb-3 ms-lg-2 my-lg-0">
+                        Docs
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-lg-start mx-lg-5 mb-lg-3">
+            <h4 class="fw-bold my-4 text-lg-center">Core Features</h4>
+            <div class="row mx-4 mx-lg-5">
+                <div class="col-12 col-lg-4">
+                    <div class="card bg-body-secondary rounded-4">
+                        <div class="card-body">
+                            <div class="bg-primary text-white rounded-1 d-inline-flex px-2 py-1 mb-2 p-lg-2">
+                                <i class="bi bi-grid px-1"></i>
+                            </div>
+                            <h5 class="card-title fw-bold mt-lg-2">Grid System</h5>
+                            <p class="card-text text-black text-opacity-50 mb-2">
+                                Our 12-column grid system allows you to build complex layouts with ease.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+                    <div class="card bg-body-secondary rounded-4">
+                        <div class="card-body">
+                            <div class="bg-success text-white rounded-1 d-inline-flex px-2 py-1 mb-2 p-lg-2">
+                                <i class="bi bi-phone px-1"></i>
+                            </div>
+                            <h5 class="card-title fw-bold mt-lg-2">Mobile First</h5>
+                            <p class="card-text text-black text-opacity-50 mb-2">
+                                Styles are optimized for mobile devices first, then scaled up for larger screens.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 my-4 mt-lg-0">
+                    <div class="card bg-body-secondary rounded-4">
+                        <div class="card-body">
+                            <div class="bg-danger text-white rounded-1 d-inline-flex px-2 py-1 mb-2 p-lg-2">
+                                <i class="bi bi-check2 px-1"></i>
+                            </div>
+                            <h5 class="card-title fw-bold mt-lg-2">Utility classes</h5>
+                            <p class="card-text text-black text-opacity-50 mb-2">
+                                Modify properties like margin, padding, and color directly in your HTML.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-body-secondary py-4 px-lg-5">
+            <div class="row mx-4 mx-lg-5 my-lg-4">
+                <div class="col-12">
+                    <div class="card rounded-4 flex-lg-row">
+                        <div class="bg-black rounded-top-4 text-center py-4 align-content-lg-center w-100 d-lg-none">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="70"
+                                height="70"
+                                fill="currentColor"
+                                class="bi bi-code-slash text-white text-opacity-50 my-3"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"
+                                />
+                            </svg>
+                        </div>
+                        <div
+                            class="bg-black rounded-start-4 text-center py-4 align-content-lg-center w-100 d-none d-lg-block"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="70"
+                                height="70"
+                                fill="currentColor"
+                                class="bi bi-code-slash text-white text-opacity-50 my-3"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"
+                                />
+                            </svg>
+                        </div>
+                        <div class="card-body p-4 p-lg-5">
+                            <h4 class="card-title fw-bold">Code Less, Do More</h4>
+                            <p class="card-text text-black text-opacity-50">
+                                Bootstrap utilizes a handful of important global styles and settings that you'll need to
+                                be aware of when using it, all of which are exclusively geared towards the normalization
+                                of cross browser styles.
+                            </p>
+                            <button type="button" class="btn btn-dark rounded-pill py-2 px-4">
+                                Read Documentation
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center border-top border-black border-opacity-25 text-black text-opacity-50 py-3">
+            © NexEd
+        </footer>
+    </body>
+</html>
