@@ -1,1 +1,1 @@
-Een simpele responsive en mobile-first website gemaakt met bootstrap.
+Een simpele website gemaakt met Bootstrap. Responsive en mobile-first.
